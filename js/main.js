@@ -6,6 +6,13 @@ const player = videojs('my-video',{
     width:"600",
     height:"300",
     controls:true
+    // no fullscreen
+    // controlBar: {
+    //     fullscreenToggle: false
+    // },
+    // userActions: {
+    //     doubleClick: false
+    // }
 });
 
 player.ITMAN_watermark({
