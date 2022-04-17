@@ -9,7 +9,7 @@ const player = videojs('my-video',{
 });
 
 player.ITMAN_watermark({
-    file: "./G.png",
-    position:"left-bottom",
-    opacity: 0.3,
+    position:"center",
+    opacity: 0.7,
+    textContent:'Zevi'
 });
